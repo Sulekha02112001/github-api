@@ -1,4 +1,4 @@
 - hosts: localhost
   tasks:
     - name: run date command
-      shell: cal
+      shell: ls
