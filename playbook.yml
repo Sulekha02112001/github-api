@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: hosts 
   tasks:
     - name: run date command
       command: cal
