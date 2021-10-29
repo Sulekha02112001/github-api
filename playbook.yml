@@ -2,5 +2,5 @@
   tasks:
     - name: run date command
       command: ifconfig
-      register: output
+      register: cal
     - debug: msg="{{output.stdout}}"
