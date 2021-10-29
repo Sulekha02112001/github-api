@@ -1,4 +1,4 @@
-- hosts: hosts 
+- hosts: host
   tasks:
     - name: run date command
       command: cal
