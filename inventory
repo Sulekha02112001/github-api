@@ -1,2 +1,6 @@
 [host]
-localhost
+13.126.38.104
+[host:vars]
+ansible_user=ec2-user
+ansible_private_key=/root/awskey.pem
+ansible_connection=ssh
