@@ -1,6 +1,6 @@
 - hosts: localhost
   tasks:
     - name: run date command
-      command: cal
+      command: date
       register: output
     - debug: msg="{{output.stdout}}"
