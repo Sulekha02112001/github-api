@@ -3,5 +3,4 @@
     - name: run date command
       command: cal
       register: output
-    - debug:
-      var: output
+    - debug: msg="{{output.stdout}}"
