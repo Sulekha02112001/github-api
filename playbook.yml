@@ -1,6 +1,6 @@
 - hosts: host
   tasks:
     - name: run date command
-      command: date
+      command: cal
       register: output
     - debug: msg="{{output.stdout}}"
